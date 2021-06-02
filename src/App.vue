@@ -1,30 +1,49 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <Header />
+    <CatalogueSearchNav />
+    <Products />
   </div>
   <router-view/>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
 
-#nav {
-  padding: 30px;
+import Header from './components/Header.vue';
+import Products from './components/Products.vue';
+import CatalogueSearchNav from './components/CatalogueSearchNav.vue';
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+export default {
+  name: 'App',
+  components:{
+    Header,
+    Products,
+    CatalogueSearchNav
   }
 }
+</script>
+
+<style lang="scss">
+  *{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+  }
+  body{
+    color: #3F414E;
+    font-family: 'Open Sans', sans-serif;
+  }
+  ul{
+    list-style: none;
+  }
+  button,input{
+    font-family: inherit;
+    outline: none;
+  }
+  .wrapper{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+  }
 </style>

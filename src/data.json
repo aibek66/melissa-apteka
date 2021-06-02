@@ -1,0 +1,109 @@
+
+{
+    "products" : [
+    {
+        "imgUrl": "../assets/img1.png",
+        "name": "Фервекс №8 пак Комплекс",
+        "price": 1220,
+        "category": "lekarstva",
+        "stock": true,
+        "sale": false
+
+    },
+    {
+        "imgUrl": "../assets/img2.png",
+        "name": "Фервекс №8 пак Комплекс",
+        "price": 1220,
+        "category": "lekarstva",
+        "stock": false,
+        "sale": true
+    },
+    {
+        "imgUrl": "../assets/img2.png",
+        "name": "Фервекс №8 пак Комплекс",
+        "price": 1220,
+        "category": "lekarstva",
+        "stock": true,
+        "sale": true
+    },
+    {
+        "imgUrl": "../assets/img1.png",
+        "name": "Фервекс №8 пак Комплекс",
+        "price": 1220,
+        "category": "vitamins",
+        "stock": true,
+        "sale": false
+
+    },
+    {
+        "imgUrl": "../assets/img2.png",
+        "name": "Фервекс №8 пак Комплекс",
+        "price": 1220,
+        "category": "vitamins",
+        "stock": false,
+        "sale": true
+    },
+    {
+        "imgUrl": "../assets/img2.png",
+        "name": "Фервекс №8 пак Комплекс",
+        "price": 1220,
+        "category": "izdeliya",
+        "stock": true,
+        "sale": true
+    },
+    {
+        "imgUrl": "../assets/img3.png",
+        "name": "Фервекс №8 пак Комплекс",
+        "price": 1220,
+        "category": "mother&son",
+        "stock": false,
+        "sale": false
+    },
+    {
+        "imgUrl": "../assets/img2.png",
+        "name": "Фервекс №8 пак Комплекс",
+        "price": 1220,
+        "category": "mother&son",
+        "stock": true,
+        "sale": true
+    },
+    {
+        "imgUrl": "../assets/img1.png",
+        "name": "Фервекс №8 пак Комплекс",
+        "price": 1220,
+        "category": "mother&son",
+        "stock": false,
+        "sale": false
+    },
+    {
+        "imgUrl": "../assets/img2.png",
+        "name": "Фервекс №8 пак Комплекс",
+        "price": 1220,
+        "category": "beauty",
+        "stock": true,
+        "sale": false
+    }
+    ],
+    "categories": [
+        {
+            "name": "Лекарственные средства",
+            "category": "lekarstva"
+        },
+        {
+            "name": "Витамины и БАДы",
+            "category": "vitamins"
+        },
+        {
+            "name": "Изделия мед. назначения",
+            "category": "izdeliya"
+        },
+        {
+            "name": "Мать и дитя",
+            "category": "mother&son"
+        },
+        {
+            "name": "Красота и гигиена",
+            "category": "beauty"
+        }
+    ]
+}
